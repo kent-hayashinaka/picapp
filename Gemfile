@@ -66,3 +66,7 @@ gem 'sass-rails'
 gem 'bootstrap', '~> 4.1.1'
 gem 'carrierwave'
 gem 'mysql2'
+
+group :production do
+  gem 'pg', '>= 0.18', '< 2.0'
+end
