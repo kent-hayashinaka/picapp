@@ -1,0 +1,117 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.page-footer font-small blue{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.navbar-light .navbar-brand  {
+  color :gold;
+}
+.btn-outline-success {
+  color: lightgreen;
+    background-color: transparent;
+    background-image: none;
+    border-color: lightgreen;
+}
+.navbar{
+  font-family: Comic Sans MS;
+  font-style: oblique;
+}
+.margin-top-5per {
+  margin-top: 5%;
+}
+.margin-bottom-5per{
+  margin-bottom: 5%;
+}
+.row{
+  margin-bottom: 5%;
+}
+.img_wrap{
+  margin: 0 auto;
+  overflow: hidden;
+}
+.img_wrap img{
+  width: 100%;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.img_wrap:hover img{
+  opacity: 0.6;
+  transition-duration: 0.3s;
+}
+.title {
+  font-size: 20px;
+}
+.card-img{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  object-fit: cover;
+  height: 300px;
+  width: 255px;
+}
+.card-title{
+  font-family: Comic Sans MS;
+  color: lightyellow;
+}
+.card-text{
+  color: lightgray;
+  font-family: Comic Sans MS;
+}
+.book-block{
+  background-color: white;
+}
+.post-image{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: 450px;
+  width: 355px;
+  margin: 0 auto;
+}
+.bg-danger{
+  font-family: Comic Sans MS;
+  bottom: 0;
+  margin-top: auto;
+  opacity: 0.8;
+}
+.time-like{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px 5px;
+  margin: 0 auto;
+}
+.created_at{
+  font-size: 20px;
+    color: gray;
+}
+.edit-delete{
+  padding-left: 20px;
+}
+.view-comments {
+  color: lightblue;
+}
+.like-view{
+  background-color: white;
+  opacity: 0.7;
+  width: 60px;
+  border-radius: 46px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+.send-btn{
+  font-family: Comic Sans MS;
+  font-size: 15px;
+  height: 37px;
+  border-radius: 52px;
+  background-color: lightgray;
+  margin-left: 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px;
+  outline: none;
+}
+.form-group-file{
+  font-size: 45px;
+  padding-left: 5px;
+}
